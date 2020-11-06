@@ -20,6 +20,7 @@ EXPOSE 8080
 
 CMD [ "node", "server.js" ]
 
+##VOLUME /usr/src/app
 
 # build docker image via:
 #  $  docker build -t <your username>/node-web-app .
